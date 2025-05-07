@@ -89,3 +89,84 @@ Backend: Render or Railway
 DB: MongoDB Atlas
 
 Custom domain: yourname.dev
+
+
+
+🚧 Project 2: SkillForge – Build Real Projects from Scratch with Guidance
+🎯 Goal:
+Help developers go beyond tutorials by guiding them through building real projects, step by step.
+
+🔑 Core Features:
+User authentication & profile (with skill tagging)
+
+AI-powered project idea generator based on skills
+
+Task-based project roadmap (kanban-style or timeline)
+
+GitHub integration to track commits/progress
+
+Optional mentor support or GPT-powered code suggestions
+
+Weekly or daily build reminders
+
+Public showcase of completed projects
+
+💡 MVP Ideas:
+Select tech stack → Get project idea → Generate task list → Track progress
+
+Add a project journal/blog entry feature
+
+🚀 Project 3: OpenSourceHub – Find, Join, and Track Open Source Contributions
+🎯 Goal:
+Make it easier for developers to contribute to open source based on their interests and experience.
+
+🔑 Core Features:
+GitHub login & repo sync
+
+Fetch and display curated open issues from GitHub
+
+Filter by language, difficulty, stars, and topics
+
+Track contributions (PRs, commits, issues opened)
+
+Leaderboard, badges, and contribution streak
+
+Notifications for new issues in favorited repos/orgs
+
+💡 MVP Ideas:
+GitHub OAuth → Fetch open issues with labels like “good first issue” → Track PRs via GitHub webhook
+
+🧠 Project 5: StackSense – Smart Knowledge Tracker for Developers
+🎯 Goal:
+A personal learning tracker that helps devs record, revisit, and reflect on what they learn.
+
+🔑 Core Features:
+Daily/weekly logging of what was learned (manual or via browser extension)
+
+GPT-powered summarizer for pasted links or notes
+
+“Smart tags” to classify topics (e.g., React, GraphQL, Docker)
+
+Revision quiz/flashcard generator from notes
+
+Visual timeline of learning
+
+Export as markdown or resume-ready summary
+
+💡 MVP Ideas:
+Simple UI for logging resources
+
+Tagging + GPT-based summary
+
+Show history & search notes
+
+🧱 Tech Stack (Recommended for All 3)
+Frontend: React (Next.js or plain CRA), Tailwind or Material UI
+
+Backend: Node.js + Express
+
+Database: MongoDB
+
+Auth: GitHub OAuth, Google, or custom login
+
+External APIs: GitHub API, OpenAI API, etc.
